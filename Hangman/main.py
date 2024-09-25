@@ -1,7 +1,7 @@
 import os
 import random
 from hangman_words import word_list 
-import stages, logo2, logo3
+from hangman_art import stages, logo2, logo3
 
 # Function to clear the screen (works on most systems)
 def clear():
