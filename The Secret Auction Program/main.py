@@ -1,5 +1,5 @@
 import clear
-import logo
+from art import logo
 
 
 auction_info = []
