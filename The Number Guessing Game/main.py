@@ -1,4 +1,4 @@
-from art import logo
+import logo
 import random
 import clear
 
