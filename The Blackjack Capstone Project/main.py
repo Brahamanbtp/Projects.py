@@ -1,4 +1,4 @@
-from replit import clear
+import clear
 from art import logo
 import random
 
