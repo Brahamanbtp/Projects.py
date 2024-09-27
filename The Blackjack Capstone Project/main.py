@@ -1,5 +1,5 @@
 import clear
-from art import logo
+import logo
 import random
 
 def blackjack_game():
