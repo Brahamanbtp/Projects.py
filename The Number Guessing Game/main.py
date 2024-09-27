@@ -1,6 +1,6 @@
 from art import logo
 import random
-from replit import clear
+import clear
 
 
 def guess_the_number():
