@@ -1,5 +1,5 @@
 import Question
-import question_data
+from data import question_data
 import QuizBrain
 
 question_bank = []
