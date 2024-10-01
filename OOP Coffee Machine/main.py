@@ -1,5 +1,5 @@
 import Menu, MenuItem
-import CoffeeMaker
+from coffee_maker import CoffeeMaker
 import MoneyMachine
 
 # List of drinks
