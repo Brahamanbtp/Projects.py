@@ -1,6 +1,6 @@
 from menu import Menu, MenuItem
 from coffee_maker import CoffeeMaker
-import MoneyMachine
+from money_machine import MoneyMachine
 
 # List of drinks
 espresso = MenuItem("espresso", 50, 0, 18, 1.5)
