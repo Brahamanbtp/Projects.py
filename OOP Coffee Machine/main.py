@@ -1,4 +1,4 @@
-import Menu, MenuItem
+from menu import Menu, MenuItem
 from coffee_maker import CoffeeMaker
 import MoneyMachine
 
