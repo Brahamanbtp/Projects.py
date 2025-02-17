@@ -1,10 +1,9 @@
 import os
-from art import logo  # Ensure you have installed the 'art' module
+from art import logo 
 import random
 
-# Function to clear the console
 def clear():
-    os.system("cls" if os.name == "nt" else "clear")  # Windows -> 'cls', Mac/Linux -> 'clear'
+    os.system("cls" if os.name == "nt" else "clear")  
 
 def blackjack_game():
   
@@ -49,7 +48,6 @@ def blackjack_game():
         player_sum = sum(player_cards)
         cpu_sum = sum(cpu_cards)
 
-        # Convert Ace (11) to 1 if needed
         if 11 in player_cards and player_sum > 21:
             player_cards[player_cards.index(11)] = 1
             player_sum = sum(player_cards)
@@ -67,7 +65,7 @@ def blackjack_game():
             else:
                 done_playing()
 
-    # Game start
+
     print(logo)
     cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
     player_cards = [start_deal(cards), start_deal(cards)]
